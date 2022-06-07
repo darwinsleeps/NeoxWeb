@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:     #13171F;
+    height: 100vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Poppins";
+}
+a:hover{
+    color: #0492c2;
+    transition: 0.5s;
+}
+nav{
+    overflow: hidden;
+    display: flex;
+    background-color: #010712;
+    justify-content: space-around;
+    height: 8vh;
+    align-items: center;
+
+}
+.perso img{
+    right: 40px;
+    top: 12px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+
+}
+.nav-list{
+    display: flex;
+}
+.nav-list li{
+    margin-left: 30px;
+    list-style-type: none;
+    text-align: center;
+}
+.logo{position: absolute;
+    display: flex;
+    left: 50px;
+}
+.body1 img{
+    position: initial;
+
+    height: 700px;
+}
+.prim h1{
+    text-justify: center;
+    font-size: 50px;
+    text-align: left;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: white;
+}
+.prim img{
+    width: 400px;
+    top: 50%;
+    right: 50%;
+
+}
+.prim button{
+    font-size: 25px;
+    padding: 10px;
+    font-family: "Poppins";
+    background: #010712;
+    border-radius: 30px;
+    color: white;
+    border: solid white 0.5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.prim button:hover{
+    color: #010712;
+    background: white;
+    transition: 0.5s;
+    box-shadow: white 2px 2px 20px;
+}
+.prim{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.second{
+    background-size: cover;
+    background: url(http://static.marriedgames.com.br/b54ff0f2-7be9fc3ce13b13a02a039d849cb7b1ca.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.second h1{
+    text-justify: center;
+    font-size: 30px;
+    text-align: left;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: white;
+    position: absolute;
+}
+.cards{
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.card{
+    align-items: center;
+    margin-left: 50px;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+    background-color: #0492c2;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.card:hover{
+    align-items: center;
+    margin-left: 50px;
+    justify-content: center;
+    width: 350px;
+    height: 550px;
+
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.card h1{
+    align-items: center;
+    color: #13171F;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.imagem{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.imagem img{
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+.card:hover .imagem img{
+    width: 250px;
+    height: 250px;
+    border-radius: 40%;
+    transition: 0.5s;
+}
+.block{
+    display: flex;
+    position: absolute;
+    top: 2110px;
+    text-align: center;
+    color: #0492c2;
+    font-family: "Poppins";
+}
+.card-but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.card-but button a{
+    color: white;
+    
+}
+.card:hover .card-but button a{
+    color: #0492c2;
+    font-weight: 900;
+    transition: 1s;
+}
+.card-but button{
+
+    justify-content: center;
+    background-color: #13171F;
+    font-size: 15px;
+    font-family: "Poppins";
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    transition: 0.5s;
+}
+.card:hover .card-but button{
+    font-weight: 900;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #13171F;
+    font-size: 15px;
+    font-family: "Poppins";
+    border-radius: 20px;
+    width: 160px;
+    height: 60px;
+    border: 0;
+    transition: 0.5s;
+}
+body h1{
+    text-align: center;
+    color: white;
+    font-family: "Poppins";
+}
+.mid{
+
+    height: 100vh;
+}
+.mid img{
+    position: absolute;
+    right: 0px;
+    top: 248px;
+    width: 800px;
+}
+.mid-tex{
+    position: absolute;
+    top: 248px;
+    padding: 200px;
+}
+.mid-tex h1{
+    text-align: left;
+    font-family: "Poppins";
+    font-size: 50px;
+}
+.mid-tex h2{
+    color: #0492c2;
+    font-size: 40px;
+    font-family: "Poppins";
+}
+.final{
+    width: 100%;
+    height: 7vh;
+    background-color: #010712;
+}
+.imgsla{
+    background: url(https://images.alphacoders.com/106/thumb-1920-1066532.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.contato{
+    height: 100%;
+}
+.contato img{
+    position: absolute;
+    right: 50px;
+    width: 636px;
+    height: 400px;
+    padding: 10%;
+    padding-top: 15%;
+    border-radius: 30%;
+}
+.testo h1{
+    text-align: left;
+    font-size: 50px;
+}
+.testo{
+    font-size: 70px;
+    justify-content: left;
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    top: 4310px;
+    left: 350px;
+}
+.disc-button{
+    position: absolute;
+    left: 45%;
+    top: 4900px;
+    
+}
+.disc-button button{
+    justify-content: center;
+    background-color: #0492c2;
+    font-size: 20px;
+    font-family: "Poppins";
+    border-radius: 30px;
+    width: 180px;
+    height:80px;
+    border: 0;
+    transition: 0.5s;
+}
+.disc-button button:hover{
+    color: white;
+    cursor: pointer;
+    border-radius: 40px;
+    width: 180px;
+    height:80px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 50px -3px rgba(4, 147, 194, 0.145);
+}
+.disc-button button a{
+    font-size: 50px;
+}
+
+.final h1{
+    position: absolute;
+    top: 5050px;
+    font-size: 15px;
+    font-weight: 100;
+    left: 45%;
+}
+.final a{
+    color: #0492c2;
+    transition: 0.5s;
+}
+.final a:hover{
+    color: #963AE6;
+    font-size: 16px;
+
+    transition: 1s;
+}
+.seta {
+    position: fixed;
+    background: #0492c2;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.seta:hover{
+    background: white;
+    transition: 0.5s;
+}
+.seta img{
+    margin-top: 5px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+}
